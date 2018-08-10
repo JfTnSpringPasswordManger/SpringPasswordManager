@@ -1,0 +1,31 @@
+body {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+div#bot-top-margin {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+button#submitButton {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #4CAF50;
+    border: none;
+    padding: 1em 1em;
+    cursor: pointer;
+}
+
+button#submitButton:hover {
+    background-color: rgb(47, 138, 50);
+}
+
+button#submitButton:active {
+    background-color: rgb(47, 138, 50);
+    transform: translateY(4px);  /* move the box down after click */
+}
