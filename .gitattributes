@@ -1,0 +1,15 @@
+# Convert all line endings to LF
+* text=auto
+* text eol=lf
+
+
+# Explicitly declare what is a text file
+*.java text
+*.html text
+*.js text
+*.css text
+
+
+# Declare files that are not text
+*.png binary
+*.jpg binary
